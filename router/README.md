@@ -73,7 +73,7 @@ export class PersonalInformationResolve implements Resolve<any> {
 ### 路由跳转
 
 ```html
-<div [router]="['./home']"></div>
+<div [routerLink]="['./home']"></div>
 ```
 
 ```typescript
