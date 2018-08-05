@@ -69,3 +69,14 @@ export class PersonalInformationResolve implements Resolve<any> {
 
 }
 ```
+
+### 路由跳转
+
+```html
+<div [router]="['./home']"></div>
+```
+
+```typescript
+constructor(private router: Router) {}
+this.router.navigate(['/my-service/enterprice-order', obj]);
+```
